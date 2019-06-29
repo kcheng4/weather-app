@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 const defaults = {
     icon: 'CLEAR_DAY',
-    color: 'darkblue',
+    color: '#181e3d',
     size: 205,
     animate: true
 };
