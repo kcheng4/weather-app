@@ -1,0 +1,4 @@
+.carda {
+    display:flex;
+    flexDirection: 'row';
+}

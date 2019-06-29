@@ -1,0 +1,37 @@
+#title {
+    margin-bottom: 0vmin;
+    padding-bottom:0vmin;
+    color:#000000;
+    font-family: Hawaii 5-0, sans-serif;
+    font-size:10vmin;
+
+  }
+  
+  #subtitle {
+    margin-top: 0vmin;
+    font-size: 2.5vmin;
+    color:#000000;
+  }
+  
+  #logo {
+    display: inline-flex;
+    align-self: center;
+    margin-bottom: 0vmin;
+    position: relative;
+    height:1em;
+    width:1em;
+    top: .125em;
+  }
+
+  #title-small {
+    margin-bottom: 0vmin;
+    display:inline-block;
+    margin-right:10px;
+  }
+  
+  #subtitle-small {
+    margin-top: 0vmin;
+    font-size: 20px;
+    margin-right:10px;
+    display:inline-block;
+  }
