@@ -40,7 +40,7 @@ class WeatherCard extends Component{
 
     render() {
         const {day,summary,precipType,tempHigh,tempLow} = this.props;
-        console.log(day,summary,precipType,tempHigh,tempLow);
+        //console.log(day,summary,precipType,tempHigh,tempLow);
         const dayOfWeek = new Date(day*1000);
         const dayName = weekday[dayOfWeek.getDay()];
         let icon;
