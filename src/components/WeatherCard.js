@@ -48,6 +48,10 @@ class WeatherCard extends Component{
         if(precipType==='rain'){
             icon='RAIN';
             clothing='Bring your rainboots. The storm is coming.'
+            if(summary.includes('clear') || summary.includes('Clear')){
+                icon='CLEAR_DAY';
+                clothing=this.clothingSuggestion(parseInt(tempHigh));
+            }
         }
         else if (precipType==='snow'){
             icon='SNOW';
