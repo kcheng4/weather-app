@@ -52,6 +52,10 @@ class WeatherCard extends Component{
                 icon='CLEAR_DAY';
                 clothing=this.clothingSuggestion(parseInt(tempHigh));
             }
+            else if(summary.includes('cloudy') || summary.includes('Cloudy')){
+                icon='CLOUDY';
+                clothing=this.clothingSuggestion(parseInt(tempHigh));
+            }
         }
         else if (precipType==='snow'){
             icon='SNOW';
